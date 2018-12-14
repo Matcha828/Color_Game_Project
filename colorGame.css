@@ -1,0 +1,75 @@
+body{
+    background-color:#232323;
+    margin:0;
+    font-family: "Avenir", "Montserrat";
+}
+
+#container{
+    max-width: 600px;
+    margin: 20px auto;
+}
+
+#message{
+    display: inline-block;
+    width: 20%;
+}
+
+.square{
+    background: orangered;
+    width: 30%;
+    /*占用横宽的比例 * 30%*/
+    padding-top: 30%;
+    margin: 1.66%;
+    float: right;
+    border-radius: 15%;
+    transition: background 0.5s;
+    -webkit-transition: background 0.5s;
+    -moz-transition: background 0.5s;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    background: steelblue;
+    margin: 0;
+    font-weight: normal;
+    text-transform: uppercase;
+    line-height: 1.1;
+    padding: 20px 0;
+}
+
+#colorDisplay{
+    font-size: 200%;
+}
+
+#stripe{
+    background: white;
+    height: 30px;
+    text-align: center;
+    color:black
+}
+
+.selected{
+    background: steelblue;
+    color: white;
+}
+
+button{
+    border: none;
+    background: none;
+    outline: none;
+    text-transform: uppercase;
+    height: 100%;
+    font-weight: 700;
+    color:steelblue;
+    letter-spacing: 1px;
+    font-size: inherit;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+}
+
+button:hover{
+    color:white;
+    background: steelblue;
+}
